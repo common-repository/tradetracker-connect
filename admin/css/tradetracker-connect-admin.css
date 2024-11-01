@@ -1,0 +1,69 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+a.logo-img {
+	display: inline-block;
+	float: right;
+}
+a.logo-img img {
+	height:2.75rem;
+}
+
+@media only screen and (max-width: 764px) {
+    .logo-img {
+        display: none;
+    }
+}
+
+.page-title-action.test-button, .page-title-action.test-button:active {
+    position: initial;
+}
+
+.toggled {
+    opacity: .5;
+}
+
+/** FEED PAGE **/
+#tradetracker-connect-feed-page table {
+    border-spacing: 0;
+}
+#tradetracker-connect-feed-page table tbody tr:nth-child(even) {
+    background: rgba(100,100,100,.1);
+}
+
+#tradetracker-connect-feed-page table thead tr td {
+    font-weight: bold;
+    padding: 0.5em 0.25em;
+}
+#tradetracker-connect-feed-page table tbody tr td.br {
+    border-right: thin solid #b6b6b6;
+}
+#tradetracker-connect-feed-page table tr td {
+    border-bottom: thin solid #b6b6b6;
+    padding: 0.5em;
+}
+#tradetracker-connect-feed-page .button-remove {
+    color: #d63638;
+    background: #f6f7f7;
+    border-color: #d63638;
+}
+#tradetracker-connect-feed-page .button-remove:hover {
+    background: #f0f0f1;
+}
+#tradetracker-connect-feed-page .button-remove:focus {
+    background: #f6f7f7;
+    box-shadow: 0 0 0 1px #c43535;
+}
+#tradetracker-connect-feed-page .button-remove:active {
+    box-shadow: none;
+}
+#tradetracker-connect-feed-page select {
+    width: 100%;
+}
+
+#tradetracker-connect-feed-page .table-wrapper {
+    max-width: 100%;
+    overflow-x: scroll;
+}
